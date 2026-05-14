@@ -21,4 +21,3 @@ After the first run, status data lives at:
 - `history/*.yml` — per-monitor history
 - `graphs/*.png` — response time graphs
 - `api/*.json` — machine-readable summaries (this is what `dinaya-status` consumes)
-
