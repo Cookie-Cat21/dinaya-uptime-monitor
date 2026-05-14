@@ -22,19 +22,19 @@
     "url": "https://dinaya-lk.vercel.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/dinaya-lk.vercel.app.ico",
     "slug": "dinaya-api-health",
-    "status": "down",
-    "uptime": "59.85%",
-    "uptimeDay": "59.85%",
-    "uptimeWeek": "59.85%",
-    "uptimeMonth": "59.85%",
-    "uptimeYear": "59.85%",
-    "time": 117,
-    "timeDay": 117,
-    "timeWeek": 117,
-    "timeMonth": 117,
-    "timeYear": 117,
+    "status": "up",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 593,
+    "timeDay": 593,
+    "timeWeek": 593,
+    "timeMonth": 593,
+    "timeYear": 593,
     "dailyMinutesDown": {
-      "2026-05-14": 0
+      "2026-05-14": 32
     }
   },
   {
