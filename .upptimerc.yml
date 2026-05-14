@@ -1,0 +1,36 @@
+owner: Cookie-Cat21
+repo: dinaya-uptime-monitor
+
+sites:
+  - name: Dinaya Web
+    url: https://dinaya-lk.vercel.app
+  - name: Dinaya API Health
+    url: https://dinaya-lk.vercel.app/api/health
+    expectedStatusCodes:
+      - 200
+  - name: Dinaya Auth
+    url: https://dinaya-lk.vercel.app/login
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.dinaya-lk.vercel.app
+  logoUrl: https://dinaya-lk.vercel.app/logo.png
+  name: Dinaya Status
+  introTitle: "**Dinaya Status** — real-time uptime and incident history"
+  introMessage: This is the live status page for Dinaya. We monitor every endpoint from multiple regions every 5 minutes.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/Cookie-Cat21/dinaya-uptime-monitor
+
+assignees:
+  - Cookie-Cat21
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident report:"
+  incidentReportOn: "Incident report on"
+  resolved: resolved

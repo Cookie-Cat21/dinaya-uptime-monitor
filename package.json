@@ -1,0 +1,12 @@
+{
+  "name": "dinaya-uptime-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uptime monitoring for Dinaya — powered by Upptime.",
+  "scripts": {
+    "update-template": "upptime-update-template",
+    "update-response-time": "upptime-response-time",
+    "update-summary": "upptime-summary",
+    "update-graphs": "upptime-graphs"
+  }
+}
