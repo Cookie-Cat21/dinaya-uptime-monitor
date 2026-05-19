@@ -7,10 +7,6 @@ sites:
     url: https://dinaya-lk.vercel.app
     expectedStatusCodes:
       - 200
-  - name: Booking Page
-    url: https://dinaya-lk.vercel.app/book
-    expectedStatusCodes:
-      - 200
   - name: Pricing Page
     url: https://dinaya-lk.vercel.app/pricing
     expectedStatusCodes:
