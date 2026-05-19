@@ -2,14 +2,54 @@ owner: Cookie-Cat21
 repo: dinaya-uptime-monitor
 
 sites:
+  # ── Public surface ─────────────────────────────────────────────────────────
   - name: Dinaya Web
     url: https://dinaya-lk.vercel.app
+    expectedStatusCodes:
+      - 200
+  - name: Booking Page
+    url: https://dinaya-lk.vercel.app/book
+    expectedStatusCodes:
+      - 200
+  - name: Pricing Page
+    url: https://dinaya-lk.vercel.app/pricing
+    expectedStatusCodes:
+      - 200
+
+  # ── Auth + dashboard ───────────────────────────────────────────────────────
+  - name: Dinaya Auth
+    url: https://dinaya-lk.vercel.app/login
+    expectedStatusCodes:
+      - 200
+  - name: Dashboard
+    url: https://dinaya-lk.vercel.app/dashboard
+    expectedStatusCodes:
+      - 200
+      - 302
+      - 307
+
+  # ── API surface ────────────────────────────────────────────────────────────
   - name: Dinaya API Health
     url: https://dinaya-lk.vercel.app/api/health
     expectedStatusCodes:
       - 200
-  - name: Dinaya Auth
-    url: https://dinaya-lk.vercel.app/login
+  - name: PayHere Webhook
+    url: https://dinaya-lk.vercel.app/api/webhooks/dodo
+    method: GET
+    expectedStatusCodes:
+      - 405
+
+  # ── External dependencies (deep health checks) ─────────────────────────────
+  - name: Database (Neon)
+    url: https://dinaya-lk.vercel.app/api/health/db
+    expectedStatusCodes:
+      - 200
+  - name: Email (Resend)
+    url: https://dinaya-lk.vercel.app/api/health/email
+    expectedStatusCodes:
+      - 200
+  - name: Payments (PayHere)
+    url: https://dinaya-lk.vercel.app/api/health/payments
     expectedStatusCodes:
       - 200
 
