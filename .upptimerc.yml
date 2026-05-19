@@ -34,7 +34,7 @@ sites:
     expectedStatusCodes:
       - 200
   - name: PayHere Webhook
-    url: https://dinaya-lk.vercel.app/api/webhooks/dodo
+    url: https://dinaya-lk.vercel.app/api/webhooks/payhere
     method: GET
     expectedStatusCodes:
       - 405
