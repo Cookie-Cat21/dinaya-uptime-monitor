@@ -1,7 +1,7 @@
 url: https://dinaya-lk.vercel.app/api/health
-status: up
-code: 200
-responseTime: 5413
-lastUpdated: 2026-05-20T23:58:58.198Z
+status: down
+code: 401
+responseTime: 222
+lastUpdated: 2026-05-21T10:00:36.304Z
 startTime: 2026-05-14T12:44:58.093Z
 generator: Upptime <https://github.com/upptime/upptime>
